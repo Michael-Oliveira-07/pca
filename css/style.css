@@ -1,7 +1,7 @@
             header {
-                background-color: white;
-                height: 250px;
-                width: 100%;
+	background-color: #FFF;
+	height: 250px;
+	width: 100%;
             }
             
             h1 {
@@ -21,8 +21,10 @@
             }
             
             body {
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
-                padding: 0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding: 0;
+	background-color: #FFF;
+	background-image: url(../img/textura.jpg);
             }
             
             ul {
@@ -111,17 +113,17 @@
             /* ESTILO MULTIMÍDIA*/
             
             #div_mult1 {
-                background-color: white;
-                min-height: 200px;
-                width: 50%;
-                float: left;
+	background-color: white;
+	min-height: 200px;
+	width: 100%;
+	float: left;
             }
             
             #div_mult2 {
-                background-color: white;
-                min-height: 200px;
-                width: 50%;
-                float: right;
+	background-color: white;
+	min-height: 200px;
+	width: 100%;
+	float: right;
             }
             
             .paragrafo {
@@ -166,7 +168,10 @@
             }
             
             #fotocab {
-                position: relative;
-                padding: 50px 0px 10px 100px;
-                margin-bottom: 10px;
+	position: relative;
+	margin-bottom: 10px;
+	padding-top: 50px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 10px;
             }
